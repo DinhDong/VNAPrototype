@@ -74,7 +74,6 @@ body {
     color: darkslategray;
     margin-top: 10px;
     margin-left: 150px;
-    display: inline-block;
     background: whitesmoke;
 }
 
@@ -87,7 +86,6 @@ body {
     color: darkslategray;
     margin-top: 10px;
     margin-right: 150px;
-    display: inline-block;
     background: whitesmoke;
 }
 
