@@ -9,13 +9,20 @@
 
         <hr style="width:90%;text-align:left;margin-left:5%">
 
-        <div class="head1" style="font-size:25px;margin-bottom:25px">Search for implementing agencies:</div>
-        <select style="font-size:25px;margin-left:5%">
-            <option>Hanoi City</option>
-        </select>
-        <div class="head1" style="font-size:20px;margin-bottom:25px;color:darkorange"><a href="searchhanoi.html" style="color: inherit;">Show Results</a></div>
+        <script>
+            function urlHandler(value) {                               
+                window.location.assign(`${value}`);
+            }
+            </script>
+    
+            <div class="head1" style="font-size:25px;margin-bottom:25px">Search for implementing agencies:</div>
+            <select style="font-size:25px;margin-left:5%" onchange="urlHandler(this.value)">
+                <option disabled selected value>Select Option</option>
+                <option value="submit.html">Show all</option>
+                <option value="searchhanoi.html">Hanoi City</option>
+            </select>
 
-        <hr style="width:90%;text-align:left;margin-left:5%">
+        <hr style="width:90%;text-align:left;margin-left:5%;margin-top:50px;">
 
         <div class="head1" style="font-size:25px;">Issuance of ordinary passports without electronic chips in the country (Provincial Level)</div>
         <div class="head1" style="font-size:20px;color: darkgreen; margin-top: 10px;">Level: 4 / Implementing agency: Hanoi City Police</div>
